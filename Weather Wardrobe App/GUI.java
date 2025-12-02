@@ -3,7 +3,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class OutfitCombos extends Application {
+public class GUI extends Application {
     
     public void init() {
         
