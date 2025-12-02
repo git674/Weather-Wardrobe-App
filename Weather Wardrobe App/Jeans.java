@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Jeans extends OutfitCombos {
+  Scanner scan = new Scanner(System.in);  
+public class Jeans(int jeans,String color){
+    jeans = scan.nextInt();
+    this.color = scan.nextLine();//the color would be like blue black etc.
+}
+
+public void main(){
+    System.out.println("Jeans ID: " + jeans);
+    System.out.println("Jeans Color: " + color);
+  }
+
+int weather = readWeatherFromCSV(String filePath, String targetCity);
+suggestOutfit(color, weather);
+//then display the output from suggestOutfit on the screen
+}
